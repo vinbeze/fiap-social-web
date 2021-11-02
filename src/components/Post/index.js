@@ -98,7 +98,7 @@ async function createComent(data,coment,setComent){
         const newAnwser = {
             id: response.data.id,
             description: response.data.description,
-            created_at: response.data.created_at,
+            created_at: response.data.createdAt,
             Student: getUser()
         }
         data.Answers.push(newAnwser);
